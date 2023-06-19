@@ -1,4 +1,4 @@
-# spotify_app
+# minimusic_app
 
 A new Flutter project.
 
