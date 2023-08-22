@@ -8,8 +8,8 @@ import '../models/music.dart';
 
 // ignore: must_be_immutable
 class Home extends StatelessWidget {
-  Function _miniPlayer;
-  Home(this._miniPlayer); //dart contructor shorthand
+  final Function _miniPlayer;
+  Home(this._miniPlayer, {super.key}); //dart contructor shorthand
   //const Home({super.key});
 
   Widget createCategory(Category category) {
